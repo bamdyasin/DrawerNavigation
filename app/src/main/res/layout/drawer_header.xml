@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#CDDC39"
+    >
+
+    <ImageView
+        android:id="@+id/headerImage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/header"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="MD YASIN ARAFAT"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/headerDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ba.mdyasin@gmail.com"
+        android:textStyle="italic|bold"
+        />
+
+  </LinearLayout>
